@@ -63,6 +63,10 @@ img {
     border-radius: 100px;
 }
 
+.btn:hover {
+    background-color: #f08c00;
+}
+
 .btn--big {
     padding: 14px 16px;
     display: inline-block;
@@ -101,6 +105,10 @@ img {
     background-color: #e67700;
     padding: 24px;
     border-radius: 14px;
+}
+
+.testimoni-img {
+    justify-self: start;
 }
 
 blockquote {
