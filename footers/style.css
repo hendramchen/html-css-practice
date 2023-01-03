@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1971c2;
+    font-family: sans-serif;
+}
+
+a:link, a:visited, a:active {
+    color: #1971c2;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+a:hover {
+    color: #0a467e;
+}
+
+.one {
+    width: 1024px;
+    background-color: #d0ebff;
+    padding: 24px 32px;
+    margin: 32px auto;
+}
+
+.one ul {
+    margin: 14px 0;
+}
+
+.one li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.socmed {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #d0ebff;
+    background-color: #1971c2;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-list {
+    text-transform: uppercase;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.one address {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.photo {
+    width: 32px;
+    height: 32px;
+    background-color: #a5d8ff;
+    border-radius: 100px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #9cd4ff;
+    padding-top: 18px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input {
+    font-size: 12px;
+    padding: 8px 10px;
+    border: 1px solid #9cd4ff;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #1971c2;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0a467e;
+}
+
+.newsletter p, .followus p {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.followus p {
+    text-align: right;
+}
